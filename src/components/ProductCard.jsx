@@ -12,3 +12,5 @@ const ProductCard = ({ product, addToCart }) => {
     </div>
   )
 }
+
+export default ProductCard

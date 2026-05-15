@@ -5,9 +5,7 @@ const Cart = ({ cartItems }) => {
     <div>
       <h2>Shopping Cart</h2>     
       <ul>
-        {cartItems.map((item, index) => (
-          <li key={index}>{item.name} is in your cart.</li>
-        ))}
+        {cartItems.map((item, index) => (<li key={index}>{item.name} is in your cart.</li>))}
       </ul>
     </div>
   )
